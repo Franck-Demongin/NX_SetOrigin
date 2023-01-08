@@ -16,7 +16,7 @@ bl_info = {
     "author" : "Franck Demongin",
     "description" : "Set origin to selected in edit mode",
     "blender" : (2, 80, 0),
-    "version" : (0, 0, 1),
+    "version" : (1, 0, 0),
     "location" : "View 3D",
     "category" : "Generic"
 }
