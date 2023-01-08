@@ -16,7 +16,7 @@ Activate the addon
 ## Usage
 
 ### Set to selected
-In Edit Mode, select a part of the mesh (vertices, edges or faces), go to menu Mesh > Set Origin to Selected
+In Edit Mode, select a part of the mesh (vertices, edges or faces), go to menu Mesh > Set Origin to Selected  
 The origin of the mesh is set to your selection.
 
 ### Set to 3D Cursor
