@@ -16,7 +16,7 @@ bl_info = {
     "author" : "Franck Demongin",
     "description" : "Set origin to selected in edit mode",
     "blender" : (2, 80, 0),
-    "version" : (1, 0, 0),
+    "version" : (1, 1, 0),
     "location" : "View 3D",
     "category" : "Generic"
 }
@@ -71,9 +71,11 @@ def register():
         bpy.utils.register_class(cls)
 
     bpy.types.VIEW3D_MT_edit_mesh.append(draw_menu)
+    bpy.types.VIEW3D_MT_edit_mesh_context_menu.append(draw_menu)
 
 def unregister():
     for cls in classes:
         bpy.utils.unregister_class(cls)
           
     bpy.types.VIEW3D_MT_edit_mesh.remove(draw_menu)
+    bpy.types.VIEW3D_MT_edit_mesh_context_menu.remove(draw_menu)
