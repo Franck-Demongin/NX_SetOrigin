@@ -21,3 +21,14 @@ The origin of the mesh is set to your selection.
 
 ### Set to 3D Cursor
 If nothing is selected, the origin is set to the position of the 3D cursor.
+
+## Change Log
+
+[1-1-0] - 2023-02-02
+
+### Added 
+- Add entry in the context menu
+
+### Changed
+
+### Fixed
